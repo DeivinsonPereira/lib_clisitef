@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'core/my_app_widget.dart';
+import 'pages/clisitef_view.dart';
 
 void main() {
-  runApp(const MyAppWidget());
-  
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ClisitefView(),
+    ),
+  );
 }
-
-
